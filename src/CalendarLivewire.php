@@ -83,8 +83,7 @@ class CalendarLivewire
         $dayClickEnabled = true,
         $eventClickEnabled = true,
         $extras = []
-    )
-    {
+    ) {
         $this->weekStartsAt = $weekStartsAt ?? Carbon::SUNDAY;
         $this->weekEndsAt = $this->weekStartsAt == Carbon::SUNDAY
             ? Carbon::SATURDAY
@@ -124,8 +123,7 @@ class CalendarLivewire
         $dayOfWeekView = null,
         $beforeCalendarView = null,
         $afterCalendarView = null
-    )
-    {
+    ) {
         $this->calendarView = $calendarView ?? 'livewire-calendar::calendar';
         $this->dayView = $dayView ?? 'livewire-calendar::day';
         $this->eventView = $eventView ?? 'livewire-calendar::event';
