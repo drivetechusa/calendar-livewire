@@ -7,6 +7,7 @@ use Exception;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Support\Collection;
 use Illuminate\View\View;
+use Livewire\Component;
 
 /**
  * Class CalendarLivewire
